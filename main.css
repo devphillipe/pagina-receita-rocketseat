@@ -1,0 +1,87 @@
+body {
+    padding-top: 4.8rem;
+    background-image: url(img/bg-image.jpg);
+}   
+.container {
+    width: 800px;
+    height: 1392px;
+    border-radius: 24px;
+    padding: 2.4rem;
+    margin: 0 auto;
+    background-color: var(--surface-color);
+}
+
+.container img {
+    width: 100%;
+    height: 40rem;
+    align-self: stretch;
+    border-radius: 1.6rem;
+    padding-bottom: 2.4rem;
+}
+
+.text-container {
+    margin: 0 auto;
+
+}
+
+.text h1 {
+    padding-top: 0.4rem;
+    color: var(--primary);
+}
+
+.text p {
+    color: var(--secondary, #573A37);
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 1.2rem;
+
+}
+
+.text ul li {
+    color: var(--secondary, #573A37);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.ingredientes h2 {
+    padding-top: 2.4rem;
+    color: var(--primary);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.ingredientes ul li {
+    color: var(--secondary);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.preparo h2 {
+    color: var(--primary);
+    padding-top: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.preparo p {
+    color: var(--secondary);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+footer {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer span {
+    vertical-align: middle;
+}
