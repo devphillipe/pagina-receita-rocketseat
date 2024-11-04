@@ -39,6 +39,9 @@ body {
     padding-bottom: 1.2rem;
 
 }
+.text ul {
+    padding-left: 2rem;
+}
 
 .text ul li {
     color: var(--secondary, #573A37);
@@ -54,7 +57,9 @@ body {
     font-style: normal;
     font-weight: 400;
 }
-
+.ingredientes ul {
+    padding-left: 2rem;
+}
 .ingredientes ul li {
     color: var(--secondary);
     font-size: 1.6rem;
