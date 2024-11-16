@@ -1,0 +1,95 @@
+:root {
+    --text-color-primary: #291B1A;
+    --text-color-secondary: #573A37;
+    --text-color-on-bg: #F0E8C2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/bg-image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    display: flex;
+    margin: 3rem auto 2rem;
+    width: 50rem;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 24px;
+    background-color: #F0E8C2;
+}
+
+main {
+    margin-left: 24px;
+}
+
+.about h1 {
+    color: var(--text-color-primary);
+    font-family: 'Alice', sans-serif;
+    font-size: 2.5rem;
+    line-height: 140%;
+}
+
+p {
+    color: var(--text-color-secondary);
+    font-family: 'Alice', sans-serif;
+    font-size: 1rem;
+    line-height: 150%;
+    padding-top: 0.25rem;
+}
+
+.about p + p {
+    padding-top: 12px;
+}
+
+h2 {
+    color: var(--text-color-primary);
+    font-family: 'Alice', sans-serif;
+    padding-top: 24px;
+    font-size: 1.5rem;
+    line-height: 150%; 
+}
+
+.ingredients p {
+    color: var(--text-color-secondary);
+    font-family: 'Alice', sans-serif;
+    padding-top: 4px;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+.ingredients ul {
+    padding-left: 20px;
+}
+
+.ingredients ul li {
+    color: var(--text-color-secondary);
+    font-family: 'Alice', sans-serif;
+    font-size: 1rem;
+    line-height: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: var(--text-color-on-bg);
+    font-family: 'Alice', sans-serif;
+    font-size: 1rem;
+    line-height: 150%;
+    margin-bottom: 48px;
+}
